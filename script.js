@@ -6,7 +6,7 @@ document.getElementById('paymentForm').addEventListener('submit', function(event
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': '261797:AA9uf25xwOcQiGBdKCgNA0YTGy0sWlwcSV9'
+            'Authorization': 'Bearer 261797:AA9uf25xwOcQiGBdKCgNA0YTGy0sWlwcSV9'
         },
         body: JSON.stringify({
             amount: amount,
